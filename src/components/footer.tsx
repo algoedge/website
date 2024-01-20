@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Logo from './logo'
 
 export default function Footer() {
@@ -12,10 +13,18 @@ export default function Footer() {
             <p>&copy; {new Date().getFullYear()} Algoedge Technologies. All Rights Reserved. </p>
 
             <ul className="inline-flex space-x-4">
-              <li>Support</li>
-              <li>Terms and conditions</li>
-              <li>Privacy</li>
-              <li>Cancellation and refunds</li>
+              <li>
+                <Link href="/support">Support</Link>
+              </li>
+              <li>
+                <Link href="/terms">Terms and conditions</Link>
+              </li>
+              <li>
+                <Link href="/privacy">Privacy</Link>
+              </li>
+              <li>
+                <Link href="/cancellation">Cancellation and refunds</Link>
+              </li>
             </ul>
           </div>
         </div>
