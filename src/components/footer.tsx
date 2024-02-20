@@ -10,7 +10,10 @@ export default function Footer() {
         </div>
         <div>
           <div className="flex justify-between text-xs">
-            <p>&copy; {new Date().getFullYear()} Algoedge Technologies. All Rights Reserved. </p>
+            <div>
+              <p>&copy; {new Date().getFullYear()} Algoedge Technologies. All Rights Reserved. </p>
+              <p className="mt-2">D-35, Chikhli Road, Tulsi Park Society, Vyara, Gujarat, India - 394650</p>
+            </div>
 
             <ul className="inline-flex space-x-4">
               <li>
